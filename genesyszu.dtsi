@@ -1,5 +1,5 @@
 /include/ "system-conf.dtsi"
-#include <dt-bindings/phy/phy.h>
+#include "include/dt-bindings/phy/phy.h"
 / {
 	refclk2:psgtr_dp_clock {
 		compatible = "fixed-clock";
