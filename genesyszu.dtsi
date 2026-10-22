@@ -65,19 +65,3 @@
     /*        <&lane0 PHY_TYPE_DP 0x1 0x3 27000000>; */
     /* xlnx,max-lanes = <2>; */
 };
-
-&zynqmp_dp_snd_pcm0 {
-  status = "okay";
-};
-
-&zynqmp_dp_snd_pcm1 {
-  status = "okay";
-};
-
-&zynqmp_dp_snd_card0 {
-  status = "okay";
-};
-
-&zynqmp_dp_snd_codec0 {
-  status = "okay";
-};
