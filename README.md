@@ -19,7 +19,7 @@ gen-machine-conf parse-sdt --template </path/to/cancun.yaml>
 ### Generate SDT
 
 ```bash
-rm -rf sdt/ && sdtgen -xsa ./hw/design_1_wrapper.xsa -dir ./sdt -user_dts genesyszu.dtsi genesyszu-5ev.dtsi
+rm -rf sdt/ && sdtgen -xsa ./hw/system_wrapper.xsa-dir ./sdt -user_dts genesyszu.dtsi genesyszu-5ev.dtsi
 ```
 
 ### Import in yocto
