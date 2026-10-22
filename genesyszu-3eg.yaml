@@ -1,0 +1,9 @@
+args:
+    - parse-sdt
+    - --hw-description ../sdt//sdt
+    - --soc-variant eg
+    - --soc-family zynqmp
+    - --machine-name genesyszu-3eg
+kconfig:
+    YOCTO_BBMC_CORTEXA53_FSBL: y
+    YOCTO_BBMC_MICROBLAZE_PMU: y

@@ -19,12 +19,12 @@ gen-machine-conf parse-sdt --template </path/to/cancun.yaml>
 ### Generate SDT
 
 ```bash
-rm -rf sdt/ && sdtgen -xsa ./hw/design_1_wrapper.xsa -dir ./sdt -user_dts genesys-3eg.dtsi essential_plus.dtsi
+rm -rf generated/sdt/ && sdtgen -xsa ./hw/system_wrapper.xsa -dir ./generated/sdt -user_dts genesyszu.dtsi genesyszu-3eg.dtsi
 ```
 
 ### Import in yocto
 ```bash
 export PATH=$PATH:/<path/to/layers/>/meta-xilinx/gen-machine-conf
-gen-machine-conf parse-sdt --template ../sdt/genesys-3eg.yaml
+gen-machine-conf parse-sdt --template ../sdt/genesyszu-3eg.yaml
 ```
 
