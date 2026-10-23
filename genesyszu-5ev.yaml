@@ -1,6 +1,6 @@
 args:
     - parse-sdt
-    - --hw-description ../sdt/zu/5ev/genesys/main/generated/sdt
+    - --hw-description ../sdt/zu/5ev/genesyszu/main/generated/sdt
     - --soc-variant eg
     - --soc-family zynqmp
     - --machine-name genesyszu-5ev
